@@ -1,4 +1,32 @@
 * {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  --logo-gap: 10px;
+  --nav-links: 30px;
+  --nav-padding: 10px
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--nav-padding);
+}
+
+.nav-main_links {
+    display: flex;
+    gap: var(--nav-links);
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--logo-gap);
+    height: 30px;
 }
