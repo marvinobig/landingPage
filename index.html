@@ -15,7 +15,9 @@
   </head>
   <body>
     <nav class="nav-main">
-      <span class="logo"><img src="./images/icons/leaf.png" alt="" /> Nova</span>
+      <span class="logo"
+        ><img src="./images/icons/leaf.png" alt="" /> Nova</span
+      >
 
       <div class="nav-main_links">
         <a href="/">Home</a>
@@ -24,15 +26,33 @@
         <a href="/">Pricing</a>
         <a href="/">Contact</a>
       </div>
-      <a href="/">Get Started</a>
+      <a class="site-btn" href="/">Get Started</a>
     </nav>
-    <header>
-      <section>
+    <header class="hero">
+      <section class="hero-text">
         <h1>Build Something Amazing</h1>
         <p>A simple and powerful solution to bring your ideas to life</p>
-        <a href="/">Get Started</a>
+        <a class="site-btn" href="/">
+          <span>Get Started</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-move-right preview-icon">
+            <path d="M18 8L22 12L18 16" />
+            <path d="M2 12H22" />
+          </svg>
+        </a>
       </section>
-      <img src="./images/laptop.png" alt="laptop" />
+      <section class="hero-img">
+        <img src="./images/laptop.png" alt="laptop" />
+      </section>
     </header>
     <main>
       <section>

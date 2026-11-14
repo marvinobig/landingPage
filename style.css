@@ -3,30 +3,86 @@
   font-optical-sizing: auto;
   --logo-gap: 10px;
   --nav-links: 30px;
-  --nav-padding: 10px
+  --nav-padding: 10px;
+  --hero-gap: 10px;
+  --hero-padding: 10px;
+  --vertical-padding: 20px;
+  --btn-padding: 25px;
+  --vertical-btn-padding: 15px;
+  --btn-radius: 10px;
+  --btn-gap: 10px;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
 }
 
 .nav-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--nav-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--vertical-padding) var(--nav-padding);
 }
 
 .nav-main_links {
-    display: flex;
-    gap: var(--nav-links);
+  display: flex;
+  gap: var(--nav-links);
 }
 
 .logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--logo-gap);
-    height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--logo-gap);
+  height: 30px;
+}
+
+.site-btn {
+  background-color:#5425E8;
+  color: #ffffff;
+  border-radius: var(--btn-radius);
+  padding: var(--vertical-btn-padding) var(--btn-padding);
+}
+
+.site-btn:visited {
+  color: #ffffff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--hero-gap);
+  padding: var(--hero-padding);
+}
+
+.hero-text h1 {
+  font-size: 100px;
+}
+
+.hero-text p {
+  font-size: 50px;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero .site-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--btn-gap);
+  width: fit-content;
+  padding: var(--vertical-btn-padding) var(--btn-padding);
+  font-size: 20px;
 }
