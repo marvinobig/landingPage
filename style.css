@@ -55,6 +55,18 @@ a:visited {
   font-weight: 600;
 }
 
+.site-btn_inverted {
+  background-color: #ffffff;
+  color: #5425E8;
+  border-radius: var(--btn-radius);
+  padding: var(--vertical-btn-padding) var(--btn-padding);
+  font-weight: 600;
+}
+
+.site-btn_inverted:visited {
+  color: #5425E8;
+}
+
 .site-btn:visited {
   color: #ffffff;
 }
@@ -86,4 +98,18 @@ a:visited {
   width: fit-content;
   padding: var(--vertical-btn-padding) var(--btn-padding);
   font-size: 20px;
+}
+
+/* main section */
+.main_qa {
+  text-align: center;
+}
+
+.main_qa h2 {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.main_qa p {
+  font-size: 30px;
 }
