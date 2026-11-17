@@ -11,6 +11,10 @@
   --vertical-btn-padding: 15px;
   --btn-radius: 10px;
   --btn-gap: 10px;
+  --general-gap: 10px;
+  --general-padding: 20px;
+  --general-margin: 20px;
+  --general-radius: 20px;
 }
 
 img {
@@ -25,6 +29,14 @@ a {
 
 a:visited {
   color: #000000;
+}
+
+.main {
+  color: #101426;
+}
+
+.secondary {
+  color: #535a78;
 }
 
 .nav-main {
@@ -112,4 +124,41 @@ a:visited {
 
 .main_qa p {
   font-size: 30px;
+}
+
+.main-card_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: var(--general-gap);
+  height: 350px;
+  margin: calc(var(--general-margin) * 5) 0;
+}
+
+.main-card_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--general-gap);
+  font-size: 30px;
+  padding: calc(var(--general-padding) * 2) calc(var(--general-padding) * 3);
+  border: 1px solid #e8e7f2;
+  border-radius: var(--general-radius);
+  height: 100%;
+}
+
+.main-card_card_icons {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: calc(var(--general-padding) * 2);
+  background-color: #eee8ff;
+}
+
+.main-card_card_icons svg {
+  width: 60px;
+  height: 60px;
+  color: #5425E8;
 }
