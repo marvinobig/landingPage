@@ -203,14 +203,18 @@ a:visited {
   padding: var(--vertical-padding) var(--nav-padding);
   font-size: 18px;
   font-weight: 500;
+  background-color: #f8f7fc;
 }
 
 .social-icons {
   display: flex;
+  align-items: center;
   gap: var(--general-gap);
 }
 
 .social-icons svg {
+  height: 40px;
+  width: 40px;
   color: #535a78;
   fill: #535a78;
 }
