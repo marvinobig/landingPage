@@ -44,6 +44,8 @@ a:visited {
   justify-content: space-between;
   align-items: center;
   padding: var(--vertical-padding) var(--nav-padding);
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .nav-main_links {
@@ -56,7 +58,15 @@ a:visited {
   justify-content: space-between;
   align-items: center;
   gap: var(--logo-gap);
-  height: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.logo svg {
+  height: 40px;
+  width: 40px;
+  color: #5425E8;
+  fill: #5425E8;
 }
 
 .site-btn {
@@ -184,4 +194,23 @@ a:visited {
 .cta p {
   font-size: 20px;
   margin: 0;
+}
+
+.nav-secondary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--vertical-padding) var(--nav-padding);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.social-icons {
+  display: flex;
+  gap: var(--general-gap);
+}
+
+.social-icons svg {
+  color: #535a78;
+  fill: #535a78;
 }
