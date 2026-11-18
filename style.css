@@ -133,7 +133,7 @@ a:visited {
   text-align: center;
   gap: var(--general-gap);
   min-height: 350px;
-  margin: calc(var(--general-margin) * 5) 0;
+  margin: calc(var(--general-margin) * 4) 0;
 }
 
 .main-card_card {
@@ -161,4 +161,26 @@ a:visited {
   width: 60px;
   height: 60px;
   color: #5425E8;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--general-gap);
+  padding: calc(var(--general-padding) * 2);
+  margin-bottom: var(--general-margin);
+  border-radius: var(--general-radius);
+  align-items: center;
+  background-color: #5425E8;
+  color: #ffffff;
+}
+
+.cta h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.cta p {
+  font-size: 20px;
+  margin: 0;
 }
