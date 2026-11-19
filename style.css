@@ -259,6 +259,11 @@ a:visited {
     display: flex;
     flex-direction: column;
   }
+
+  .main-card_card {
+    flex: none;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
